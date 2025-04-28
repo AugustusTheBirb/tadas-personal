@@ -9,3 +9,66 @@
   height: 100vh;
   background-color: rgb(34, 34, 34);
 }
+
+ul {
+  list-style: none;
+}
+
+ul.navigation {
+  display: flex;
+  justify-content: space-between;
+  
+  padding: 20px 30px;
+  width: 1000px;
+  text-align: center;
+  margin: 0 auto;
+
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: rgb(67, 67, 67);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+}
+
+.comic-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  width: 1000px; 
+}
+
+button.nav {
+  font-family: monospace;
+  background-color: rgb(20, 20, 20);
+  width: 50px;
+  height: 30px;
+  border-radius: 3px;
+	border: 1px rgb(135, 135, 135) solid;
+	font: inherit;
+  padding-bottom: 0px;
+	cursor: pointer;
+	outline: inherit;
+}
+
+nav.main {
+  margin: 10px;
+}
+
+ul.comicnav {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+img.comic {
+  width: 1000px;
+  height: 1500px;
+  padding: 20px;
+}
