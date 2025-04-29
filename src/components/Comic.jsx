@@ -9,7 +9,7 @@ function Comic() {
     const [page, setPage] = useState(1)
     let currentPage = PageInfo[page-1]
     let maxPage = PageInfo.length
-    let imagePath = "testcomic-" + String(page) + ".jpg"
+    let imagePath = "/testcomic/testcomic-" + String(page) + ".jpg"
     return (
         <div className="comic-container">
         <h1 className="title">{currentPage.title}</h1>
