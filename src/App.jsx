@@ -2,6 +2,8 @@ import { useState } from 'react'
 import './App.css'
 import MainNavigation from './components/MainNavigation.jsx'
 import Comic from "./components/Comic.jsx"
+import Footer from "./components/Footer.jsx"
+
 function App() {
   const [count, setCount] = useState(0)
 
@@ -9,7 +11,8 @@ function App() {
     <>
       <div className="container">
         <MainNavigation />
-        <Comic></Comic>
+        <Comic />
+        <Footer />
       </div>
     </>
   )
