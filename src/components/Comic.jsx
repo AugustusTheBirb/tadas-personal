@@ -6,10 +6,12 @@ import { useState } from 'react'
   
 
 function Comic() {
-    const [page, setPage] = useState(1)
-    let currentPage = PageInfo[page-1]
-    let maxPage = PageInfo.length
-    let imagePath = "/testcomic/testcomic-" + String(page) + ".jpg"
+    const [page, setPage] = useState(0)
+    // let currentPage = PageInfo[page-1]
+    // let maxPage = PageInfo.length
+    let currentPage = PageInfo[0]
+    let maxPage = 11
+    let imagePath = "/testcomic/P" + String(page) + ".jpg"
     return (
         <div className="comic-container">
         <h1 className="title">{currentPage.title}</h1>
